@@ -1,0 +1,25 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.check-box .box {
+	-fx-background-color: white;
+	-fx-border-color:grey;
+	-fx-border-radius:3px; 
+}
+
+.check-box:selected .mark {
+
+	-fx-background-color: black;
+
+}
+
+.check-box:selected .box {
+
+	-fx-background-color: #73ffce;
+}
+
+
+.radio-button:selected .dot{
+	-fx-background-color: black;
+}
+.radio-button:selected .radio{
+	-fx-background-color: #73ffce;
+}
